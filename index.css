@@ -1,0 +1,29 @@
+.body {
+    max-width: 1280px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 880px;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.image {
+    max-width: 282px;
+    display: block;
+    object-fit: cover;
+}
+
+
+.main-content {
+        margin: 0 auto;
+        min-width: 320px;
+    }
+
